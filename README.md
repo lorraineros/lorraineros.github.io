@@ -1,2 +1,2 @@
 # lorraineros.github.io
-[verkefni1](verkefni.hmtl)
+[verkefni1](verkefni.html)
