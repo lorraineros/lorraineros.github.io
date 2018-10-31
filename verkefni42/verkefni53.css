@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Krub|Open+Sans+Condensed:300');
+
+body{
+    background: darkslateblue;
+}
+
+.haus{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.titill{
+    font-family: 'Krub';
+    color: white;
+}
+
+.titill a{
+    color: white;
+}
+
+
+.verkefni43{
+    font-family: arial;
+    color: plum;
+    text-align: end;
+}
+
+.haus_link{
+    max-width: 60em;
+    margin: 0 auto;
+    text-align: end;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:active{
+    color: white;
+}
+
+
+.verkefni43{
+    font-family: arial;
+}
+
+.midja{
+    background: linear-gradient(pink, steelblue);
+    height: 100vh;
+}
+
+.div1{
+    text-align: center;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.div1 h1{
+    text-align: center;
+    font-family: 'Krub';
+    color: darkslateblue;
+}
+
+.div1 h1{
+    font-family: source sans pro;
+}
+
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+.navigation li {
+    display: inline-block;
+}
+.navigation a {
+    background: steelblue;
+    color: plum;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    background: darkblue;
+    color: hotpink;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.laeknisskodun{
+    background: linear-gradient(pink, steelblue);
+    height: 100vh;
+    padding: 1em;
+}
+
+.div2{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.laekni_titill{
+    font-family: 'Krub';
+    color: darkslateblue;
+}
+
+.div2 p{
+    font-family: source sans pro;
+}
+
+.oskirnar3{
+    background: linear-gradient(pink, steelblue);
+    height: 100vh;
+    padding: 1em;
+
+}
+
+.div3{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.oskarnir_titill{
+    font-family: 'Krub';
+    color: darkslateblue;
+}
+
+.div3 p{
+    font-family: source sans pro;
+}
+
+.adamog{
+    background: linear-gradient(pink, steelblue);
+    height: 100vh;
+    padding: 1em;
+
+}
+
+.div4{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.adam_titill{
+    font-family: 'Krub';
+    color: darkslateblue;
+}
+
+.div4 p{
+    font-family: source sans pro;
+}
+
+.Alnaemisfaraldurinn{
+    background: linear-gradient(pink, steelblue);
+    height: 100vh;
+    padding: 1em;
+}
+
+.div5{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.alnaemi_titill{
+    font-family: 'Krub';
+    color: darkslateblue;
+}
+
+.div5 p{
+    font-family: source sans pro;
+}
+
+.jolakvedja{
+    background: linear-gradient(pink, steelblue);
+    height: 100vh;
+    padding: 1em;
+}
+
+.div6{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.jola_titill{
+    font-family: 'Krub';
+    color: darkslateblue;
+}
+
+.div6 p{
+    font-family: source sans pro;
+}
+
+.goidvd{
+    background: linear-gradient(pink, steelblue);
+    height: 100vh;
+    padding: 1em;
+}
+
+.div7{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.gefoss_titill{
+    font-family: 'Krub';
+    color: darkslateblue;
+}
+
+.div7 p{
+    font-family: source sans pro;
+}
+
+.fotur{
+    max-width: 60em;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav"
+}
+
+li a{
+    color: white;
+}
+
+.fotur dt{
+    color:plum;
+}
+
+
+.navpila a{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background: white;
+    color: steelblue;
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.navpila a:hover{
+    background: navy;
+    color: pink;
+}
+
+.gjg{
+    max-width: 60em;
+    margin: 0 auto;
+    color: white;
+}
