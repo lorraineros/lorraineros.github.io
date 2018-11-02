@@ -1,6 +1,6 @@
 # lorraineros.github.io
 [Verkefni1](/verkefni1/verkefni.html)
-[Verkefni1](/verkefni1/verkefni.css)
+[Verkefni1css](/verkefni1/verkefni.css)
 [Verkefni2](/verkefni2/verkefni2.html)
 [Verkefni2](/verkefni2/verkefni2.css)
 [Verkefni2](/verkefni2/order.html)
