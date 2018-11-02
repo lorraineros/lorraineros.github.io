@@ -1,0 +1,109 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+
+body{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.header{
+    grid-area: haus;
+    background: rgba(0, 140, 255, 0.493);
+    text-align: center;
+    font-family: arial;
+    font-style: italic;
+    color: darkblue;
+}
+
+.hl1{
+    grid-area: hlekkur1;
+    background: cornflowerblue;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl2{
+    grid-area: hlekkur2;
+    background: cornflowerblue;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl3{
+    grid-area: hlekkur3;
+    background: cornflowerblue;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl4{
+    grid-area: hlekkur4;
+    background: cornflowerblue;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl5{
+    grid-area: hlekkur5;
+    background: cornflowerblue;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.vinstri{
+    grid-area: vinstri;
+    background: skyblue;
+    font-family: arial black;
+    padding: 1em;
+}
+
+.vinstri p{
+    font-family: arial;
+}
+
+.midja{
+    grid-area: midja;
+    background: powderblue;
+    font-family: arial black;
+    padding: 1em;
+}
+
+.midja p{
+    font-family:arial;
+}
+
+.haegri{
+    grid-area: haegri;
+    background: skyblue;
+    font-family: arial black;
+    padding: 1em;
+}
+
+.haegri p{
+    font-family: arial;
+}
+
+.f{
+    grid-area: fotur;
+    background: cornflowerblue;
+    color: white;
+    font-family: arial;
+    padding: 1em;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "haus haus haus haus haus";
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "midja midja haegri vinstri"
+    "fotur1 fotur2 fotur3 fotur4"
+}
+
+body{
+    max-width: 60em;
+    margin: 0 auto;
+    background: rgb(104, 106, 126);
+}
+
+.hl1{
+    grid-area: hlekkur1;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl2{
+    grid-area: hlekkur2;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl3{
+    grid-area: hlekkur3;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl4{
+    grid-area: hlekkur4;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.hl5{
+    grid-area: hlekkur5;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.header{
+    grid-area: haus;
+    background: black;
+    font-family: Anton;
+    font-size: 3em;
+    color: whitesmoke;
+    padding: 0.5em;
+}
+
+
+.vinstri{
+    grid-area: vinstri;
+    background:  rgb(105, 101, 101);
+    font-family: arial black;
+    color: darkkhaki;
+    padding: 1em;
+}
+
+.vinstri p{
+    font-family: arial;
+    color: beige;
+}
+
+.midja{
+    grid-area: midja;
+    background: rgb(150, 145, 145);
+    font-family: arial black;
+    padding: 1em;
+}
+
+.midja p{
+    font-family:arial;
+}
+
+.haegri{
+    grid-area: haegri;
+    background: rgb(105, 101, 101);
+    font-family: arial black;
+    color: darkkhaki;
+    padding: 1em;
+}
+
+.haegri p{
+    font-family: arial;
+    color: beige;
+}
+
+
+.nav1{
+    grid-area: fotur1;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.nav2{
+    grid-area: fotur2;
+    background: rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.nav3{
+    grid-area: fotur3;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.nav4{
+    grid-area: fotur4;
+    background:  rgb(41, 37, 66);
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
