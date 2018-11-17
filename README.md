@@ -15,3 +15,5 @@
 * [Verkefni4_css](/verkefni4/index.css)
 * [Verkefni42](/verkefni42/verkefni53.html)
 * [Verkefni42_css](/verkefni42/verkefni53.css)
+* [Verkefni5](/verkefni5/verkefni5.html)
+* [Verkefni5_css](/verkefni5/verkefni5.css)
