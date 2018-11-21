@@ -1,0 +1,40 @@
+body{
+    background: lightcyan;
+    border: 1px solid blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: palevioletred;
+}
+
+a:active{
+color: red;
+}
+
+
+.lorem{
+    color: darkblue;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.loremtext{
+    font-family: cursive;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+.loremquote{
+    text-align: center;
+}
+
+.loremquote2{
+    text-align: center;
+}
