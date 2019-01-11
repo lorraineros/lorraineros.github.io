@@ -17,3 +17,9 @@
 
 4. Hvað er útgáfustýring (Version Control)?
     Útgáfustýring er kerfi sem skráir breytingar á file eða file-um yfir tíma svo þú getir aftur kallað sérstakar útgáfur seinna
+
+5. Hverjir eru helstu kostir við að nota GIT?
+    Git framkvæmir mjög sterkan og áreiðanlegan hátt í samanburði við aðrar útgáfu stjórnkerfi. Þú get auðveldlega commit nýjar kóðar breytinga.
+
+6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+     ég veit ekki
