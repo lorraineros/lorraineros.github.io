@@ -14,3 +14,6 @@
     git log - sýnir allt sem hefur verið gert í git skjali
     git checkout - skiptir um grein
     git branch -  List, create, or delete branches
+
+4. Hvað er útgáfustýring (Version Control)?
+    Útgáfustýring er kerfi sem skráir breytingar á file eða file-um yfir tíma svo þú getir aftur kallað sérstakar útgáfur seinna
