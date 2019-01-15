@@ -20,6 +20,8 @@
 
 5. Hverjir eru helstu kostir við að nota GIT?
     Git framkvæmir mjög sterkan og áreiðanlegan hátt í samanburði við aðrar útgáfu stjórnkerfi. Þú get auðveldlega commit nýjar kóðar breytinga.
+    Á nýju greininn minni get ég sagt mína skoðun á Git Umsjónarkerfinu...
+ .. **bættu við þínu áliti hér**  
 
 6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
      ég veit ekki
