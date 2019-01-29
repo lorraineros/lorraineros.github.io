@@ -1,4 +1,8 @@
 - name: Home
   link: /
+
 - name: About
-  link: /about.htmls
+  link: /assets/about.md
+
+  name: Gitsvor
+  link: /verkefni1/gitsvor.md
