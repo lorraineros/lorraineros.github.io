@@ -2,7 +2,7 @@
   link: /
 
 - name: About
-  link: /assets/about.html
+  link: /assets/about.md
 
-- name: Gitsvor
+  name: Gitsvor
   link: /verkefni1/gitsvor.md
