@@ -6,6 +6,7 @@
   </head>
   <body>
     {% include navigation.html %}
-    {{ content }}
+    <h1>{{ page.title | upcase }}</h1>
+    <main>{{ content }}</main>
   </body>
 </html>
