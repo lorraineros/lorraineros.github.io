@@ -1,8 +1,17 @@
 - name: Home
   link: /
 
-- name: About
-  link: /assets/about.html
 
-- name: Gitsvor
+- name: Git Svör
   link: /verkefni1/gitsvor.html
+
+
+- name: About
+  link: /about.html
+
+
+- name: Blog
+  link: /blog.html
+
+- name: Staff
+  link: /staff.html
