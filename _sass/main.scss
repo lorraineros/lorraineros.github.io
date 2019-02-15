@@ -3,7 +3,7 @@
   }
 
 body{
-  background: skyblue;
+  background: lightskyblue;
   color: darkslateblue;
 }
 
@@ -12,6 +12,11 @@ a{
   color: white;
 }
 
-.stuff{
-
+a:hover{
+  color: violet;
 }
+
+a:active{
+  color: purple;
+}
+

@@ -2,9 +2,15 @@
   color: green; }
 
 body {
-  background: skyblue;
+  background: lightskyblue;
   color: darkslateblue; }
 
 a {
   text-decoration: none;
   color: white; }
+
+a:hover {
+  color: violet; }
+
+a:active {
+  color: purple; }
