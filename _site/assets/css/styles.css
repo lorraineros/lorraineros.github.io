@@ -1,16 +1,52 @@
 .current {
   color: darkorchid; }
 
+.stuff {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  position: relative;
+  padding: 0.5em;
+  border: 1px solid navy;
+  background: pink;
+  z-index: 9999999;
+  width: 100%; }
+
+.stuff a {
+  padding: 0em .5em;
+  text-align: center; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+h1 {
+  text-align: center; }
+
 body {
   background: lightskyblue;
   color: darkslateblue; }
 
 a {
   text-decoration: none;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 a:hover {
   color: violet; }
 
 a:active {
   color: purple; }
+
+p {
+  text-align: center; }
+
+li {
+  list-style-type: none; }
+
+ul {
+  text-align: center; }
+
+ol {
+  text-align: center;
+  font-style: bold; }
