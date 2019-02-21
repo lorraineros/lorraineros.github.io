@@ -3,8 +3,7 @@ layout: default
 title: Verkefni 2 - Jekyll vefsíða
 ---
 
-{:title="hallo"}
-hallo heimur
+# Halló heimur
 
 {{"Þetta er nýja vefsíðan mín" | upcase}}
 <br>
