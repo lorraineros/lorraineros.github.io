@@ -77,10 +77,14 @@ ol{
 .hello{
   grid-area: hi;
   text-align: center;
+  max-width: 60em;
+  margin: 0 auto;
 }
 
 .lorem{
   grid-area: lor;
+  max-width: 60em;
+  margin: 0 auto;
 }
 
 .hi{
