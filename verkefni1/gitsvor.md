@@ -3,7 +3,7 @@ layout: default
 title: Gitsvör
 ---
 
-#Git verkefni 1
+# Git verkefni 1
 
 1. Hvað gera eftirfarandi Linux skipanir?
     * cd - change directory
