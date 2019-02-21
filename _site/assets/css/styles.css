@@ -30,7 +30,7 @@ h1 {
   text-align: center; }
 
 body {
-  background: lightskyblue;
+  background: linear-gradient(skyblue, plum, skyblue);
   color: darkslateblue; }
 
 a {
