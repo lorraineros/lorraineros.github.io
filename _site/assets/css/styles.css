@@ -67,4 +67,7 @@ ol {
   body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "s" "hi" "lor"; } }
+    grid-template-areas: "s" "hi" "lor"; }
+
+  a {
+    font-size: 125%; } }
