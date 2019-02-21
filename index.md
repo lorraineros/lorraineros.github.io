@@ -3,11 +3,13 @@ layout: default
 title: Verkefni 2 - Jekyll vefsíða
 ---
 
-# Halló heimur
+<nav class="hello">
 
-{{"Welcome to my website" | upcase}}
+<h2>Welcome to my website</h2>
 <br>
-![image](/assets/images/beautifulcat.png)
+<img src="/assets/images/beautifulcat.png" alt="image" />
+
+</nav>
 
 <br>
 

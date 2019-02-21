@@ -2,6 +2,15 @@
     color: darkorchid;
 }
 
+.content{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "s"
+      "hi"
+      "lor"
+  }
+
 .stuff{
   display: flex;
   flex-flow: row;
@@ -67,10 +76,15 @@ ol{
 
 .hello{
   grid-area: hi;
+  text-align: center;
 }
 
 .lorem{
   grid-area: lor;
+}
+
+.hi{
+  text-align: center;
 }
 
 @media (min-width:37,5em){
@@ -81,6 +95,10 @@ ol{
       "s"
       "hi"
       "lor"
+  }
+
+  a{
+    font-size: 125%;
   }
 }
 
