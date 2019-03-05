@@ -1,12 +1,11 @@
-- name: Home
+- name: <span class="icon-home"></span> Home
   link: /
 
-- name: Git Svör
+- name: <span class="icon-gitsvor"></span>Git Svör
   link: /verkefni1/gitsvor.html
 
-- name: About
+- name: <span class="icon-about"></span>About
   link: /about.html
 
-
-- name: Blog
+- name: <span class="icon-blog"></span>Blog
   link: /blog.html
