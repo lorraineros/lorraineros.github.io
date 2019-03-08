@@ -7,6 +7,8 @@ title: Jekyll vefsíða
 
 <h2>Welcome to my website</h2>
 <br>
+<img src="/assets/images/drawing2.svg" alt="svg">
+<br>
 <img src="/assets/images/beautifulcat.png" alt="image" />
 </nav><br>
 <nav class="lorem">
