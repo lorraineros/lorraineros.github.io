@@ -1,5 +1,17 @@
+body{
+  color: #f2f1ff;
+  background: linear-gradient(306deg, #85d5e3, #dfaad5, #a8d4e9, #e1a8e9);
+  background-size: 1200% 1200%;
+  
+  -webkit-animation: grad 15s ease infinite;
+  -moz-animation: grad 15s ease infinite;
+  -o-animation: grad 15s ease infinite;
+  animation: grad 15s ease infinite;
+
+}
+
 .current {
-    color: darkorchid;
+    color:plum;
 }
 
 .icon-home{
@@ -60,8 +72,8 @@
   flex-flow: row;
   justify-content: center;
   position: relative;
-  padding: 0.5em;
-  border: 1px solid navy;
+  padding: .5em;
+  border: 1px solid white;
   background: pink;
   z-index: 9999999;
   width: 100%;
@@ -82,10 +94,7 @@ h1{
   text-align: center;
 }
 
-body{
-  background: linear-gradient(skyblue,plum,skyblue);
-  color: darkslateblue;
-}
+
 
 a{
   text-decoration: none;
@@ -163,3 +172,23 @@ ol{
       font-size: 125%;
     }
   }
+@-webkit-keyframes grad {
+    0%{background-position:0% 2%}
+    50%{background-position:100% 99%}
+    100%{background-position:0% 2%}
+}
+@-moz-keyframes grad {
+    0%{background-position:0% 2%}
+    50%{background-position:100% 99%}
+    100%{background-position:0% 2%}
+}
+@-o-keyframes grad {
+    0%{background-position:0% 2%}
+    50%{background-position:100% 99%}
+    100%{background-position:0% 2%}
+}
+@keyframes grad { 
+    0%{background-position:0% 2%}
+    50%{background-position:100% 99%}
+    100%{background-position:0% 2%}
+}
