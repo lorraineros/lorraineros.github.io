@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Krub|Lobster|Lobster+Two');
+
+body{
+    background: violet;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "topnav"
+    "header"
+    "section"
+    "fotur"
+    "verkefni"
+}
+
+
+@media (max-width:37.5em){
+
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "section"
+        "fotur"
+        "topnav"
+        "verkefni"
+    }
+    
+
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "vinstri"
+        "midja"
+        "haegri"
+    }
+
+    .topnav{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "hlekkur1"
+        "hlekkur2"
+        "hlekkur3"
+        "hlekkur4"
+    }
+
+    .verkefni{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav1"
+        "nav2" 
+        "nav3"
+        "nav4"
+        "nav42"
+        "nav5"
+    }
+
+    .comics{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "c5"
+        "c6"
+    }
+}
+@media (min-width:37.5em){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "vinstri midja"
+        "haegri midja"
+    }
+    
+    .topnav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "hlekkur1 hlekkur2"
+        "hlekkur3 hlekkur4"
+    }
+
+    .verkefni{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "nav1 nav2 nav3"
+        "nav4 nav42 nav5"
+    }
+
+    .comics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "c1 c2"
+        "c3 c4"
+        "c5 c6"
+    }
+}
+
+@media (min-width:60em){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "vinstri midja midja haegri"
+    }
+
+    .topnav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hlekkur1 hlekkur2 hlekkur3 hlekkur4"
+    }
+
+    .verkefni{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "nav1 nav2 nav3 nav4 nav42 nav5"
+    }
+
+    .comics{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "c1 c2 c3"
+        "c4 c5 c6"
+    }
+}
+
+
+
+header{
+    grid-area: haus;
+    background: radial-gradient(hotpink,violet,skyblue);
+    padding: 1em;
+    text-align: center;
+    font-family: Lobster, cursive;
+    color: white;
+}
+
+.vinstri{
+    grid-area: vinstri;
+    background: radial-gradient(skyblue,lightblue);
+    padding: 1em;
+    text-align: center;
+    color: darkblue;
+}
+
+.midja{
+    grid-area: midja;
+    background: radial-gradient(hotpink,pink);
+    padding: 1em;
+    text-align: center;
+    color: darkred;
+}
+
+.haegri{
+    grid-area: haegri;
+    background: radial-gradient(violet,plum);
+    padding: 1em;
+    text-align: center;
+    color: purple;
+}
+
+.fotur{
+    grid-area: fotur;
+    padding: 1em;
+    background: radial-gradient(hotpink,violet,skyblue);
+    color:white;
+}
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+div{
+    padding: 0.25em;
+}
+
+h3{
+    font-family: Lobster, cursive;
+}
+
+
+p{
+    font-family: 'Krub';
+    padding: 1em;
+}
+
+/* web link */
+
+.topnav{
+    background: purple;
+}
+
+.topnav input{
+    display: none;
+}
+
+
+.topnav .hl1{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.topnav .hl2{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.topnav .hl3{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.topnav .hl4{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.topnav a{
+    display: block;
+    color: lightpink;
+    text-decoration: none;
+    text-align: center;
+    padding: .4em 1em; 
+}
+.topnav a:hover,
+.topnav a:active,
+.virkur{
+    color: purple !important;
+    background-color: pink;
+}
+
+.hl1{
+    grid-area: hlekkur1;
+}
+
+.hl2{
+    grid-area: hlekkur2;
+}
+
+.hl3{
+    grid-area: hlekkur3;
+}
+
+.hl4{
+    grid-area: hlekkur4;
+}
+
+/* verkefni link */
+
+.v1{
+    grid-area: nav1;
+}
+.v2{
+    grid-area: nav2;
+}
+.v3{
+    grid-area: nav3;
+}
+.v4{
+    grid-area: nav4;
+}
+.v42{
+    grid-area: nav42;
+}
+.v5{
+    grid-area: nav5;
+}
+
+.verkefni{
+    background: purple;
+}
+
+.verkefni input{
+    display: none;
+}
+
+
+.verkefni .v1{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.verkefni .v2{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.verkefni .v3{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.verkefni .v4{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.verkefni .v42{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+.verkefni .v5{
+    border: 1px solid pink;
+    padding: 0;
+    margin:0;
+}
+
+
+.verkefni a{
+    display: block;
+    color: lightpink;
+    text-decoration: none;
+    text-align: center;
+    padding: .4em 1em; 
+}
+.verkefni a:hover,
+.verkefni a:active,
+.virkur{
+    color: purple !important;
+    background-color: pink;
+}
+
+
+.c1{
+    grid-area: c1;
+}
+
+.c2{
+    grid-area: c2;
+}
+
+.c3{
+    grid-area: c3;
+}
+
+.c4{
+    grid-area: c4;
+}
+
+.c5{
+    grid-area: c5;
+}
+
+.c6{
+    grid-area: c6;
+}
+
+header{
+    grid-area: header;
+}
+
+section{
+    grid-area: section;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.topnav{
+    grid-area: topnav;
+}
+
+.verkefni{
+    grid-area: verkefni;
+}
