@@ -5,9 +5,11 @@ title: Jekyll vefsíða
 
 <nav class="hello">
 
-<h2>Welcome to my website</h2>
+<h1>Welcome to my website</h1>
 <br>
+<div class="spin">
 <img src="/assets/images/drawing2.svg" alt="svg">
+</div>
 <br>
 <img src="/assets/images/beautifulcat.png" alt="image" />
 </nav><br>

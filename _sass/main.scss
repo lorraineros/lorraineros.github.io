@@ -1,13 +1,16 @@
 body{
   color: #f2f1ff;
-  background: linear-gradient(306deg, #85d5e3, #dfaad5, #a8d4e9, #e1a8e9);
-  background-size: 1200% 1200%;
+  background: linear-gradient(306deg, #85d5e3, #dfaad5, #a8d4e9, #e1a8e9,#a8d4e9);
+  background-size: 2000% 2000%;
   
-  -webkit-animation: grad 15s ease infinite;
-  -moz-animation: grad 15s ease infinite;
-  -o-animation: grad 15s ease infinite;
-  animation: grad 15s ease infinite;
+  -webkit-animation: grad 5s ease infinite;
+  -moz-animation: grad 5s ease infinite;
+  -o-animation: grad 5s ease infinite;
+  animation: grad 5s ease infinite;
 
+  max-width: 70em;
+  margin: 0 auto;
+  padding: 2em;
 }
 
 .current {
@@ -82,7 +85,7 @@ body{
 .stuff a{
   padding: 0em .5em;
   text-align: center;
-  grid-area: s;
+  grid-area: s; 
 }
 
 img{
@@ -92,6 +95,7 @@ img{
 
 h1{
   text-align: center;
+  font-size: 2em;
 }
 
 
@@ -191,4 +195,15 @@ ol{
     0%{background-position:0% 2%}
     50%{background-position:100% 99%}
     100%{background-position:0% 2%}
+}
+.spin {
+  animation: spin 1s infinite alternate ease-in-out;
+}
+@keyframes spin {
+  from {
+    transform:rotate(-25.5deg);
+  }
+  to {
+      transform:rotate(25.5deg);
+  }
 }
