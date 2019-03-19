@@ -212,12 +212,3 @@ ol {
     transform: rotate(-25.5deg); }
   to {
     transform: rotate(25.5deg); } }
-@keyframes example {
-  0% {
-    background-color: red; }
-  25% {
-    background-color: yellow; }
-  50% {
-    background-color: blue; }
-  100% {
-    background-color: green; } }

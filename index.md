@@ -8,7 +8,7 @@ title: Jekyll vefsíða
 <h1>Welcome to my website</h1>
 <br>
 <div class="spin">
-<img src="/assets/images/drawing2.svg" alt="svg">
+    <img src="/assets/images/drawing2.svg" alt="svg">
 </div>
 <br>
 <img src="/assets/images/beautifulcat.png" alt="image" />
