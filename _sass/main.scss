@@ -1,16 +1,49 @@
 body{
   color: #f2f1ff;
-  background: linear-gradient(306deg, #85d5e3, #dfaad5, #a8d4e9, #e1a8e9,#a8d4e9);
-  background-size: 2000% 2000%;
-  
-  -webkit-animation: grad 5s ease infinite;
-  -moz-animation: grad 5s ease infinite;
-  -o-animation: grad 5s ease infinite;
-  animation: grad 5s ease infinite;
+  width: auto;
+	height: auto;
+	background: linear-gradient(-45deg, rgb(96, 182, 223), rgb(235, 137, 238),rgb(142, 207, 248), rgb(222, 101, 252));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  margin: 0;
+}
 
-  max-width: 70em;
-  margin: 0 auto;
-  padding: 2em;
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 .current {
@@ -98,6 +131,10 @@ h1{
   font-size: 2em;
 }
 
+.dogs{
+  max-width: 60em;
+  margin: 0 auto;
+}
 
 
 a{
@@ -148,6 +185,56 @@ ol{
   text-align: center;
 }
 
+.omg{
+  color: violet;
+}
+
+
+.augl{
+  width: 10em;
+  height: auto;
+  background: rgba(255, 255, 255, 0.753);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 15px;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.kitty{
+  max-width: 100%;
+  height: auto;
+}
+
+.takki{
+  background-color: violet;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.takki:hover{
+  background-color: skyblue;
+  border: none;
+  color: navy;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
 @media (min-width:37,5em){
   .content{
       display: grid;
@@ -176,26 +263,6 @@ ol{
       font-size: 125%;
     }
   }
-@-webkit-keyframes grad {
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
-}
-@-moz-keyframes grad {
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
-}
-@-o-keyframes grad {
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
-}
-@keyframes grad { 
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
-}
 .spin {
   animation: spin 1s infinite alternate ease-in-out;
 }
@@ -206,4 +273,11 @@ ol{
   to {
       transform:rotate(25.5deg);
   }
+}
+
+@keyframes example{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
