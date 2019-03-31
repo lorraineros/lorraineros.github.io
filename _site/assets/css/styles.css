@@ -201,7 +201,7 @@ ol {
   cursor: pointer;
   border-radius: 15px; }
 
-@media (max-width: 37.5em) {
+@media (max-width: 20em) {
   body {
     display: grid;
     grid-template-columns: 1fr;
@@ -266,7 +266,7 @@ ol {
 
   .stuff a:hover {
     color: plum; } }
-@media (max-width: 60em) {
+@media (max-width: 48em) {
   body {
     display: grid;
     grid-template-columns: 1fr;
