@@ -105,23 +105,40 @@ body{
       "lor"
 }
 
-.stuff{
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  position: relative;
-  padding: .5em;
-  border: 1px solid white;
-  background: pink;
-  z-index: 9999999;
-  width: 100%;
+input{
+  visibility:hidden;
 }
 
-.stuff a{
+label{
+  visibility:hidden;
+}
+
+.stuff{
+  background: pink;
+}
+
+.stuff ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+
+.stuff li{
+  list-style: none;
+  display: inline-block;
+  width: calc(100% / 5);
+  height: 75px;
+  text-align: center;
+}
+
+.stuff a {
   padding: 0em .5em;
   text-align: center;
   grid-area: s; 
 }
+
 
 img{
   max-width: 100%;
@@ -192,7 +209,7 @@ ol{
 }
 
 
-.augl{
+.auglysing{
   width: 10em;
   height: auto;
   background: rgba(255, 255, 255, 0.753);
@@ -202,10 +219,12 @@ ol{
   -moz-box-shadow: inset 0 0 10px #000000;
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow: inset 0 0 10px #000000;
+  grid-area: au;
 }
 
+
 .kitty{
-  max-width: 100%;
+  max-width: 10em;
   height: auto;
 }
 
@@ -237,8 +256,8 @@ ol{
   border-radius: 15px;
 }
 
-@media (min-width:37,5em){
-  .content{
+@media (max-width:37.5em){
+  body{
       display: grid;
       grid-template-columns: 1fr;
       grid-template-areas: 
@@ -247,22 +266,148 @@ ol{
       "lor"
   }
 
-  a{
-    font-size: 125%;
+  input{
+    visibility: visible;
   }
+  
+  label{
+    visibility: visible;
+  }
+    
+  input {
+    display: none;
+  }
+
+  label,
+  .dalkar ul {
+    border-radius: 6px;
+    background: pink;
+  }
+  label {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px 9px;
+    transition: all .15s ease;
+    margin: 1em;
+  }
+  label:hover {
+    color: plum;
+  }
+  input:checked + label {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #9799a7;
+  }
+  .stuff {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .15s ease;
+  }
+  input:checked ~ .stuff {
+    max-height: 500px;
+  }
+  .dalkar ul {
+    list-style: none;
+    margin: 8px 0 0 0;
+    padding: 0;
+    width: 100px;
+  }
+  .dalkar li {
+    margin-right: 2em;
+    background: pink;
+  }
+  .dalkar li:last-child {
+    border-bottom: 0;
+  }
+  .stuff a {
+    color: white;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    
+  }
+  .stuff a:hover {
+    color: plum;
+  }
+
 }
 
-  @media (min-width:60em){
+  @media (max-width:60em){
     body{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "s"
-        "hi"
-        "lor"
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "s"
+      "hi"
+      "lor"
     }
-    a{
-      font-size: 125%;
+
+    input{
+      visibility:hidden;
+    }
+    
+    label{
+      visibility: visible;
+    }
+
+    input {
+      display: none;
+    }
+  
+    label,
+    .dalkar ul {
+      border: 1px solid white;
+      border-radius: 6px;
+      background: pink;
+    }
+    label {
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 30px;
+      padding: 5px 9px;
+      transition: all .15s ease;
+      margin: 1em;
+    }
+    label:hover {
+      color: plum;
+    }
+    input:checked + label {
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+      color: #9799a7;
+    }
+    .stuff {
+      max-height: 0;
+      overflow: hidden;
+      transition: all .15s ease;
+    }
+    input:checked ~ .stuff {
+      max-height: 500px;
+    }
+    .dalkar ul {
+      list-style: none;
+      margin: 8px 0 0 0;
+      padding: 0;
+      width: 100px;
+    }
+    .dalkar li {
+      border-bottom: 1px solid white;
+      margin-right: 2em;
+      background: pink;
+    }
+    .dalkar li:last-child {
+      border-bottom: 0;
+    }
+    .stuff a {
+      color: white;
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      
+    }
+    .stuff a:hover {
+      color: plum;
     }
   }
 .spin {
