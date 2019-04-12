@@ -73,6 +73,26 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
+.icon-table {
+  display: block;
+  text-indent: -9999px;
+  width: 32px;
+  height: 23px;
+  background: url(/assets/images/menu.svg);
+  background-size: 32px 23px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.icon-form {
+  display: block;
+  text-indent: -9999px;
+  width: 32px;
+  height: 23px;
+  background: url(/assets/images/profile.svg);
+  background-size: 32px 23px;
+  margin-left: auto;
+  margin-right: auto; }
+
 .content {
   display: grid;
   grid-template-columns: 1fr;

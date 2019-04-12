@@ -10,8 +10,8 @@
 - name: <span class="icon-blog"></span>Blog
   link: /blog.html
 
-- name: <span class="icon-blog"></span>Table
+- name: <span class="icon-table"></span>Table
   link: /tables.html
 
-- name: <span class="icon-blog"></span>Form
+- name: <span class="icon-form"></span>Form
   link: /form.html
