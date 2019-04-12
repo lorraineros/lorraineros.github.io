@@ -9,3 +9,9 @@
 
 - name: <span class="icon-blog"></span>Blog
   link: /blog.html
+
+- name: <span class="icon-blog"></span>Table
+  link: /tables.html
+
+- name: <span class="icon-blog"></span>Form
+  link: /form.html

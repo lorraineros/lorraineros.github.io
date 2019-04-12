@@ -5,7 +5,7 @@ title: About
 # About page
 
 This page tells you a little bit about me. <br>
-[Ferilskrá](https://lorraineros.github.io/2018-vef1/verkefni6/)<br>
+[&#10132;Ferilskrá](https://lorraineros.github.io/2018-vef1/verkefni6/)<br>
 <img src="/assets/images/cutedog.gif" alt="dog" />
 
 <h1>Dog</h1>

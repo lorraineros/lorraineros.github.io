@@ -23,6 +23,9 @@
 <loc>http://localhost:4000/blog.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/form.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/verkefni1/gitsvor.html</loc>
 </url>
 <url>
@@ -30,6 +33,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/staff.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tables.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/2018-vef1/</loc>

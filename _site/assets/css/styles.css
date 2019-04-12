@@ -97,7 +97,7 @@ label {
 .stuff li {
   list-style: none;
   display: inline-block;
-  width: calc(100% / 5);
+  width: calc(100% / 6);
   height: 75px;
   text-align: center; }
 
@@ -210,11 +210,11 @@ ol {
   input {
     visibility: visible; }
 
-  label {
+  form input {
     visibility: visible; }
 
-  input {
-    display: none; }
+  label {
+    visibility: visible; }
 
   label,
   .dalkar ul {
@@ -275,11 +275,11 @@ ol {
   input {
     visibility: hidden; }
 
-  label {
+  form input {
     visibility: visible; }
 
-  input {
-    display: none; }
+  label {
+    visibility: visible; }
 
   label,
   .dalkar ul {
@@ -341,3 +341,99 @@ ol {
     transform: rotate(-25.5deg); }
   to {
     transform: rotate(25.5deg); } }
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: white;
+  margin: 2em; }
+
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle; }
+
+thead {
+  background: #395870;
+  color: #fff; }
+
+th:first-child {
+  text-align: left; }
+
+tbody tr:nth-child(even) {
+  background: #f0f0f2; }
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5; }
+
+td:first-child {
+  border-left: 1px solid #cecfd5; }
+
+.book-title {
+  color: #395870;
+  display: block; }
+
+.item-stock,
+.item-qty {
+  text-align: center; }
+
+.item-price {
+  text-align: right; }
+
+.item-multiple {
+  display: block; }
+
+tfoot {
+  text-align: right; }
+
+tfoot tr:last-child {
+  background: #f0f0f2; }
+
+form input {
+  visibility: visible; }
+
+.register {
+  padding: 3em; }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=date], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #f0ccf0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #e4aee4; }
